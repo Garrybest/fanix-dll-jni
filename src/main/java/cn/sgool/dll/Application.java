@@ -28,8 +28,18 @@ public class Application {
         int bLoginResult = login.connectToAppServer();
         System.out.println("连接数据库完成，结果：LoginResult: " + bLoginResult);
 
-        bLoginResult = login.upLoginData();
-        System.out.println("上传数据完成，结果：LoginResult: " + bLoginResult);
+//        bLoginResult = login.upLoginData();
+//        System.out.println("上传数据完成，结果：LoginResult: " + bLoginResult);
+
+//        SelectBattInfo selectBattInfo = new SelectBattInfo();
+//        selectBattInfo.setServerIp("127.0.0.1");
+//        selectBattInfo.setServerPort("8095");
+//        selectBattInfo.setTrayId("100");
+//        selectBattInfo.setTrayRfid("100");
+//        int bQueryResult = selectBattInfo.connectToAppServer();
+//        System.out.println("连接数据库完成，结果：QueryResult: " + bQueryResult);
+//        bQueryResult = selectBattInfo.getTrayBattInfoDC();
+//        System.out.println("上传数据完成，结果：LoginResult: " + bQueryResult);
 
     }
 }

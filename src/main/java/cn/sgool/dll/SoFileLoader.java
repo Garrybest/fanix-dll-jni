@@ -19,11 +19,11 @@ public class SoFileLoader {
             isLoaded = true;
             if (systemType.toLowerCase().contains("win")) {
                 //系统库
-                writeSoFile("/win32/FanixJNI.dll", "FanixJNI.dll");
-                writeSoFile("/win32/fxClassifyDLL.dll", "fxClassifyDLL.dll");
-                writeSoFile("/win32/fxSelectBattInfo.dll", "fxSelectBattInfo.dll");
-                writeSoFile("/win32/fxUpFreeTray.dll", "fxUpFreeTray.dll");
-                writeSoFile("/win32/LoginDLL.dll", "LoginDLL.dll");
+                //writeSoFile("/win32/FanixJNI.dll", "FanixJNI.dll");
+                //writeSoFile("/win32/fxClassifyDLL.dll", "fxClassifyDLL.dll");
+                //writeSoFile("/win32/fxSelectBattInfo.dll", "fxSelectBattInfo.dll");
+                //writeSoFile("/win32/fxUpFreeTray.dll", "fxUpFreeTray.dll");
+                //writeSoFile("/win32/LoginDLL.dll", "LoginDLL.dll");
 
                 //SuperLU库
                 //writeSoFile("/win32/libsuperlu_4.3.a", "libsuperlu_4.3.a");
