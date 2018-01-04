@@ -16,6 +16,7 @@ public class Application {
 
     public static void main(String[] args) throws ParseException {
 
+        // 测试所有方法
         int result;
         Login login = new Login();
         login.setServerIp("127.0.0.1");
@@ -27,8 +28,8 @@ public class Application {
         login.setIsNew("NEW");
         result = login.connectToAppServer();
         System.out.println("连接数据库完成，结果：" + result);
-//        result = login.upLoginData();
-//        System.out.println("上传数据完成，结果：" + result);
+        result = login.upLoginData();
+        System.out.println("上传数据完成，结果：" + result);
 
         SelectBattInfo selectBattInfo = new SelectBattInfo();
         selectBattInfo.setServerIp("127.0.0.1");
