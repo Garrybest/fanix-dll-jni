@@ -23,7 +23,6 @@ public class Application {
         login.setServerPort("8095");
         login.setTrayId("100");
         login.setTrayRfid("100");
-        login.setLoginTime();
         login.setBattstrArr(new String[]{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"});
         login.setIsNew("NEW");
         result = login.connectToAppServer();
